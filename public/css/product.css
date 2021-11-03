@@ -1,0 +1,32 @@
+.form-control input,
+.form-control label {
+    display: block;
+    width: 100%;
+}
+.producr-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+}
+.form-control input {
+    border: 1px solid #21222e;
+    border-radius: .25rem;
+    font: inherit;
+    padding: 0.3rem 1.5rem;
+}
+button {
+    margin-top: 1rem;
+    font: inherit;
+    border: 1px solid #3747d8;
+    color: #3747d8;
+    border-radius: .25rem;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0.3rem 1.5rem;
+    transition: all .3s;
+}
+button:hover,
+button:active {
+    background-color: #3747d8;
+    color: white;
+}
